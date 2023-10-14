@@ -19,9 +19,10 @@ body {
 h1,
 h2,
 h3 {
-	font-size: 1rem;
+	font-size: 1.1rem;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	font-weight: semi-bold;
 }
 
 h2 {
