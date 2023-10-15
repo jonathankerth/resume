@@ -1,56 +1,49 @@
 body {
-	font-size: 14px;
-	line-height: 1.5;
+	font-size: 12px;
+	line-height: 16px;
 	font-family: "Arial", sans-serif;
 	background-color: #ffffff;
 	color: #000000;
 	margin: 0;
 	padding: 0;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+/* Define dark mode styles */
+[data-theme="dark"] body {
+	background-color: #333333;
+	color: #ffffff;
+}
+/* Define dark mode styles for main content */
+[data-theme="dark"] .main-content {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+/* Define dark mode styles for list items */
+[data-theme="dark"] ul li {
+	color: #ffffff;
 }
 
 .main-content {
-	max-width: 95%;
+	max-width: 90%;
 	margin: 0 auto;
-	padding: 10px;
-	border-left: 4px solid #333;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	padding: 6px;
+	border-left: 2px solid #333;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	transition: background-color 0.3s, color 0.3s;
 }
 
-h1,
-h2,
-h3 {
-	font-size: 1.1rem;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-weight: semi-bold;
+/* Heading style for each section */
+.section-heading {
+	font-size: 14px; /* Increased font size for section headings */
+	margin-top: 12px; /* Reduced margin for section headings */
+	margin-bottom: 6px; /* Reduced margin for section headings */
+	font-weight: bold;
 }
 
 h2 {
 	border-bottom: 1px solid #ddd;
-	padding-bottom: 6px;
-}
-
-h4 {
-	font-size: 1rem;
-	font-weight: 600;
-	margin-top: 1.5rem;
-	color: #333;
-}
-
-ul {
-	margin-left: 1rem;
-	list-style-type: none;
-	padding: 0;
-}
-
-ul li {
-	margin: 0.5rem 0;
-	font-size: 0.875rem;
-	color: #4a5568;
-}
-
-ul li strong {
-	font-weight: 600;
+	padding-bottom: 2px;
 }
 
 a {
@@ -67,71 +60,14 @@ a:hover {
 	display: true;
 }
 
-ul.features-list {
-	list-style-type: disc;
-	margin-left: 15px;
-}
-
-ul.features-list li {
-	margin-bottom: 6px;
-}
+/* Dark mode styles for the menu icon */
 [data-theme="dark"] .menu-icon-line {
-	background-color: #ffffff;
+	background-color: #fff;
 }
 
-.education-section {
-	border: 1px solid #e5e7eb;
-	padding: 1rem;
-	border-radius: 8px;
-	margin-bottom: 2rem;
-}
-
-.education-title {
-	font-size: 1.25rem;
-	font-weight: 600;
-	margin-bottom: 1rem;
-	color: #333;
-	border-bottom: 2px solid #e5e7eb;
-	padding-bottom: 0.5rem;
-}
-
-.education-subtitle {
-	font-size: 1rem;
-	font-weight: 500;
-	margin-top: 1rem;
-	color: #4a5568;
-}
-
-.education-details {
-	margin-left: 1rem;
-	list-style-type: none;
-	padding: 0;
-}
-
-.education-details li {
-	margin: 0.5rem 0;
-	font-size: 0.875rem;
-	color: #6b7280;
-}
-
-.education-details strong {
-	color: #4a5568;
-	font-weight: 500;
-}
-
+/* Hide the theme toggle button when printing */
 @media print {
-	body {
-		margin: 0;
-		padding: 0;
-		width: 100vw;
-	}
-
-	.container {
-		max-width: 100%;
-		padding: 0;
-	}
-
 	#themeToggle {
-		display: none;
+		display: none !important;
 	}
 }

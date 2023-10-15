@@ -11,30 +11,35 @@
 		<link rel="stylesheet" href="./resume.css" />
 	</head>
 	<body class="bg-white text-black p-2">
+		<button
+			id="themeToggle"
+			class="bg-gray-800 text-white rounded-full w-10 h-10 absolute top-5 right-5 focus:outline-none"
+		>
+			🌙
+		</button>
 		<div class="container mx-auto">
-			<button
-				id="themeToggle"
-				class="bg-gray-800 text-white rounded-full w-10 h-10 absolute top-5 right-5 focus:outline-none"
-			>
-				🌙
-			</button>
-			<div class="border border-gray-400 rounded p-4 mt-12">
-				<div
-					class="flex items-center px-2 py-1 inline-block mb-2 font-semibold"
-				>
+			<div class="border border-gray-400 rounded p-4">
+				<div class="flex items-center px-2 py-0 inline-block font-semibold">
 					<!-- Menu Icon: Three horizontal lines -->
-					<div class="flex flex-col space-y-1 mr-2">
-						<span class="block w-4 h-0.5 bg-black menu-icon-line"></span>
-						<span class="block w-4 h-0.5 bg-black menu-icon-line"></span>
-						<span class="block w-4 h-0.5 bg-black menu-icon-line"></span>
+					<div
+						class="flex items-center mb-2 px-2 py-0 inline-block font-semibold flex-col space-y-1"
+					>
+						<span class="block" style="line-height: 0.1">—</span>
+						<span class="block" style="line-height: 0.1">—</span>
+						<span class="block" style="line-height: 0.1">—</span>
 					</div>
 					README.md
 				</div>
-				<div class="border-t border-gray-400 mt-2 pt-4">
-					<div class="text-lg font-bold mb-2">Jonathan Gallardo-Kerth</div>
-					<div class="flex flex-wrap justify-between items-center text-xs mb-4">
-						<span class="w-full sm:w-auto mb-2 sm:mb-0">
-							Portland, OR | (630)373-8754 |
+
+				<div class="border-t border-gray-400 pt-4">
+					<div class="text-xl font-semibold text-center mb-4">
+						Jonathan Gallardo-Kerth
+					</div>
+
+					<div class="text-center">
+						<!-- Add this div for centering -->
+						<span class="w-full sm:w-auto sm:mb-0">
+							Portland, OR, 97215 | (630) 373-8754 |
 							<a
 								class="text-blue-500 hover:underline"
 								href="mailto:Jonathanpkerth@gmail.com"
@@ -67,32 +72,28 @@
 						</span>
 					</div>
 
-					<h2 class="text-lg font-semibold mb-2">Summary</h2>
-					<p class="text-md mb-4">
-						A software engineer driven by an undying passion for web
-						development. With expertise in technologies like React, Next.js, and
-						Node.js, I have consistently built and delivered scalable web
-						applications. Always eager to take on challenging projects and to
-						collaborate with teams to achieve collective goals.
+					<h2 class="text-lg font-semibold mb-2 section-heading">Summary</h2>
+					<p class="text-xsm">
+						I'm a fun and passionate software engineer specializing in building
+						scalable and efficient web applications. I primarily use
+						cutting-edge technologies like React, Next.js, Node.js, Express,
+						Redux, SQL, Tailwind CSS, SCSS, and MongoDB. Outside the world of
+						code, I'm a food enthusiast, self-proclaimed nerd, home chef, pet
+						parent, and I've traveled to 5 out of 7 continents.
 					</p>
 
-					<h2 class="text-lg font-semibold mb-2">Projects</h2>
+					<h2 class="text-lg font-semibold mb-2 section-heading">Projects</h2>
 					<div class="space-y-3">
 						<div>
-							<h3>Kitchen GPT</h3>
-							<ul class="pl-5 text-xs">
+							<h3 class="text-base">Kitchen GPT</h3>
+							<ul class="pl-2 text-xsm projects-description">
 								<li>
-									<strong>Description:</strong> An assistant for kitchen tasks,
-									powered by GPT-3. Assists users in real-time with recipes,
-									measurements, and cooking advice. Combined the power of AI
-									with another of my passions.
+									An assistant for kitchen tasks, powered by GPT-3. Assists
+									users in real-time with recipes, measurements, and cooking
+									advice. Combined the power of AI with another of my passions.
 								</li>
-								<li>
-									<strong>Technologies:</strong> React, Node.js, Express.js,
-									GPT-3
-								</li>
-								<li><strong>Deployment:</strong> Vercel</li>
-
+								<li>Technologies: React, Node.js, Express.js, GPT-3</li>
+								<li>Deployment: Vercel</li>
 								<li>
 									<a
 										class="text-blue-500 hover:underline"
@@ -105,19 +106,15 @@
 							</ul>
 						</div>
 						<div>
-							<h3>Nicolas Cage Movie Repository</h3>
-							<ul class="pl-5 text-xs">
+							<h3 class="text-base">Nicolas Cage Movie Repository</h3>
+							<ul class="pl-2 text-xsm projects-description">
 								<li>
-									<strong>Description:</strong> A repository for Nicolas Cage
-									movies integrated with a custom-built RESTful API for dynamic
-									data fetching. Includes user authentication and session
-									management.
+									A repository for Nicolas Cage movies integrated with a
+									custom-built RESTful API for dynamic data fetching. Includes
+									user authentication and session management.
 								</li>
-								<li>
-									<strong>Technologies:</strong> React, Bootstrap, RESTful API
-								</li>
-								<li><strong>Deployment:</strong> Deployed on Netlify</li>
-
+								<li>Technologies: React, Bootstrap, RESTful API</li>
+								<li>Deployment: Netlify</li>
 								<li>
 									<a
 										class="text-blue-500 hover:underline"
@@ -130,19 +127,14 @@
 							</ul>
 						</div>
 						<div>
-							<h3>Weather App</h3>
-							<ul class="pl-5 text-xs">
+							<h3 class="text-base">Weather App</h3>
+							<ul class="pl-2 text-xsm projects-description">
 								<li>
-									<strong>Description:</strong> A real-time weather application
-									that displays current weather data with a responsive design
-									for cross-device compatibility.
+									A real-time weather application that displays current weather
+									data with a responsive design for cross-device compatibility.
 								</li>
-								<li>
-									<strong>Technologies:</strong> Next.js, Tailwind CSS,
-									OpenWeather API
-								</li>
-								<li><strong>Deployment:</strong> Deployed on Vercel</li>
-
+								<li>Technologies: Next.js, Tailwind CSS, OpenWeather API</li>
+								<li>Deployment: Vercel</li>
 								<li>
 									<a
 										href="https://weather-app-woad-two.vercel.app/"
@@ -154,20 +146,18 @@
 							</ul>
 						</div>
 						<div>
-							<h3>Meet App</h3>
-							<ul class="pl-5 text-xs">
+							<h3 class="text-base">Meet App</h3>
+							<ul class="pl-2 text-xsm projects-description">
 								<li>
-									<strong>Description:</strong> A serverless Progressive Web App
-									(PWA) that fetches upcoming tech events using Google Calendar
-									API and OAuth2 for data fetching and user authentication.
-									Developed using a Test-Driven Development (TDD) approach.
+									A serverless Progressive Web App (PWA) that fetches upcoming
+									tech events using Google Calendar API and OAuth2 for data
+									fetching and user authentication. Developed using a
+									Test-Driven Development (TDD) approach.
 								</li>
 								<li>
-									<strong>Technologies:</strong> React, Node.js, Google Calendar
-									API, OAuth2, PWA
+									Technologies: React, Node.js, Google Calendar API, OAuth2, PWA
 								</li>
-								<li><strong>Deployment:</strong> Deployed on GitHub Pages</li>
-
+								<li>Deployment: Deployed on GitHub Pages</li>
 								<li>
 									<a
 										href="https://jonathankerth.github.io/meet/"
@@ -178,27 +168,28 @@
 								</li>
 							</ul>
 						</div>
+					</div>
 
-						<hr />
+					<hr />
 
-						<hr />
+					<h2 class="text-lg font-semibold mb-2 section-heading">
+						Skills/Technologies
+					</h2>
+					<p class="text-xsm mb-2">
+						React, Redux, Next.js, JavaScript, TypeScript, HTML, CSS, SCSS,
+						Tailwind CSS, Bootstrap, Angular, Node.js, Git, Vercel, Express,
+						MongoDB, AWS, Lambda, Google Analytics, ChatGPT, Software
+						Development, Python, Flask, BeautifulSoup
+					</p>
 
-						<h2 class="text-lg font-semibold mb-2">Skills</h2>
-						<p class="text-md mb-2">
-							React, Redux, Next.js, JavaScript, TypeScript, HTML, CSS, SCSS,
-							Tailwind CSS, Bootstrap, Angular, Node.js, Git, Vercel, Express,
-							MongoDB, AWS, Lambda, Google Analytics, ChatGPT, Software
-							Development, Python, Flask, BeautifulSoup
-						</p>
-
-						<hr />
-
-						<h2 class="text-lg font-semibold mb-2">Work Experience</h2>
-						<h3 class="mb-2">
+					<hr />
+					<h2 class="text-lg font-semibold section-heading">Work Experience</h2>
+					<div class="work-experience-item">
+						<h3 class="text-base">
 							Technical Recruiter | Lenati, PK Global, Xpanse, and Brightloom
 						</h3>
-						<div>07/2018 - 08/2022</div>
-						<ul class="list-disc pl-5 text-xs">
+						<div class="text-xsm">July 2018 - August 2022</div>
+						<ul class="pl-5 text-xsm work-experience-description list-disc">
 							<li>
 								Specialized in technical recruiting with a focus on software
 								development, UX, PM, and HR roles.
@@ -209,23 +200,35 @@
 								diversity initiatives.
 							</li>
 						</ul>
-
+					</div>
+					<div class="work-experience-item">
 						<hr />
 
-						<h2 class="text-lg font-semibold mb-2">Education</h2>
-						<h4><strong>B.A. in Psychology</strong></h4>
-						<ul>
-							<li><strong>Willamette University, Salem, OR</strong></li>
-							<li>08/2014 - 05/2018</li>
-						</ul>
-
-						<h4>
-							<strong>Coding Bootcamp in Full-Stack Web Development</strong>
-						</h4>
-						<ul>
-							<li><strong>CareerFoundry</strong></li>
-							<li>12/2022 - 06/2023</li>
-						</ul>
+						<h2 class="text-lg font-semibold mb-2 section-heading">
+							Education
+						</h2>
+						<div class="flex">
+							<!-- Add flex -->
+							<div class="ml-2">
+								<!-- Set width to 50% for equal spacing -->
+								<h4 class="text-md"><strong>B.A. in Psychology</strong></h4>
+								<ul class="text-md education-details">
+									<li><strong>Willamette University, Salem, OR</strong></li>
+									<li>August 2014 - May 2018</li>
+								</ul>
+							</div>
+							<div class="ml-8">
+								<!-- Set width to 50% for equal spacing -->
+								<h4 class="text-md">
+									<strong>Coding Bootcamp in Full-Stack Web Development</strong>
+								</h4>
+								<ul class="text-md education-details">
+									<!-- Remove left padding -->
+									<li><strong>CareerFoundry, Remote</strong></li>
+									<li>December 2022 - June 2023</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
