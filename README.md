@@ -1,6 +1,6 @@
 # Jonathan Gallardo Kerth's Resume Codebase
 
-Welcome to my resume. I created it by using: HTML, CSS, and JavaScript.
+Welcome to my resume codebase. I built this resume by using HTML, CSS, and JavaScript.
 
 🔗 [**Explore my resume's code**](https://jonathankerth.github.io/resume/)
 
