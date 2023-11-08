@@ -1,33 +1,24 @@
-# Jonathan Kerth's Resume
+# Jonathan Gallardo Kerth's Resume Codebase
 
-Crafted with ❤️ by Jonathan Kerth using the trifecta of web development: HTML, CSS, and JavaScript.
+Welcome to my resume codebase. I built this resume by using HTML, CSS, and JavaScript.
 
-🔗 [**Check out my resume here**](https://jonathankerth.github.io/resume/)
+🔗 [**Explore my resume's code**](https://jonathankerth.github.io/resume/)
 
-If you're a recruiter or hiring manager, I encourage you to explore my work and get to know more about my journey in the tech industry. Feel free to reach out for any potential opportunities, collaborations, or questions.
+**Styled Like a README.md**: This interactive resume is designed to resemble a README.md, just like the one you're reading now!
 
-## Download My Resume
+## Download Options
 
-To grab a copy of my resume:
+To obtain a copy of my resume, you have two convenient options:
 
-- **Option 1**: Print the [online version](https://jonathankerth.github.io/resume/) to PDF or use the download button on my resume.
-- **Option 2**: Download it while checking out my [my portfolio](https://www.jonathankerth.com/Resume).
+- **Option 1**: From my [online version](https://jonathankerth.github.io/resume/) you can print to PDF or use the download button.
+- **Option 2**: Download it directly from [my portfolio](https://www.jonathankerth.com/Resume).
 
-## Inspired by the design?
+Thank you for considering me as a candidate for your team. I greatly appreciate your interest and the effort I've dedicated to this project.
 
-1. **Show Some Love**: Do me a favor? Please star this repo! 🌟 It means a lot to me.
-2. **Make It Yours**: Instead of just downloading, why not make it a bit personal? Fork this repository to your GitHub account.
-3. **Set It Up Locally**: Once you've forked it, you can pull it down and start making it your own.
+**Looking for the Resume Template?**
 
-\```bash
-git clone https://github.com/YOUR-USERNAME/resume.git
-\```
+If you're inspired by the design and want to create your own unique and interactive resume, you can find the template [here](https://github.com/jonathankerth/resume-template). It's a fantastic tool for showcasing your skills and experience in a creative way.
 
-4. **Personalize**: Go ahead and infuse your own story, style, and information.
-5. **Share The Love**: If you decide to use your version of the resume, I'd appreciate a shoutout. Just a line somewhere, saying:
+Feel free to reach out for potential opportunities, collaborations, or if you have any questions.
 
-\```markdown
-Inspired by a template from [Jonathan Kerth](https://github.com/jonathankerth).
-\```
-
-Thank you for viewing my resume and respecting the work put into this project!
+Let's make an impact together!
