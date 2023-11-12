@@ -1,17 +1,24 @@
-# Jonathan Kerth's Resume
+# Jonathan Gallardo Kerth's Resume Codebase
 
-Crafted with ❤️ by Jonathan Kerth using the trifecta of web development: HTML, CSS, and JavaScript.
+Welcome to my resume codebase. I built this resume by using HTML, CSS, and JavaScript.
 
-🔗 [**Check out my resume here**](https://jonathankerth.github.io/resume/)
+🔗 [**Explore my resume's code**](https://jonathankerth.github.io/resume/)
 
-If you're a recruiter or hiring manager, I encourage you to explore my work and get to know more about my journey in the tech industry. Feel free to reach out for any potential opportunities, collaborations, or questions.
+**Styled Like a README.md**: This interactive resume is designed to resemble a README.md, just like the one you're reading now!
 
-## Download My Resume
+## Download Options
 
-To grab a copy of my resume:
+To obtain a copy of my resume, you have two convenient options:
 
-- **Option 1**: Print the [online version](https://jonathankerth.github.io/resume/) to PDF.
-- **Option 2**: Download it straight from [my portfolio](https://www.jonathankerth.com/Resume).
+- **Option 1**: From my [online version](https://jonathankerth.github.io/resume/) you can print to PDF or use the download button.
+- **Option 2**: Download it directly from [my portfolio](https://www.jonathankerth.com/Resume).
 
-Thank you for considering me for your team and respecting the work put into this project!
-Looking for the resume template? You can find it [here](https://github.com/jonathankerth/resume-template). Use it to create your own unique and interactive resume!
+Thank you for considering me as a candidate for your team. I greatly appreciate your interest and the effort I've dedicated to this project.
+
+**Looking for the Resume Template?**
+
+If you're inspired by the design and want to create your own unique and interactive resume, you can find the template [here](https://github.com/jonathankerth/resume-template). It's a fantastic tool for showcasing your skills and experience in a creative way.
+
+Feel free to reach out for potential opportunities, collaborations, or if you have any questions.
+
+Let's make an impact together!
