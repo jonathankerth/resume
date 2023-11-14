@@ -2,7 +2,7 @@
 
 Welcome to my resume codebase. I built this resume by using HTML, CSS, and JavaScript.
 
-🔗 [**Explore my resume's code**](https://jonathankerth.github.io/resume/)
+🔗 [**Explore my resume here**](https://jonathankerth.github.io/resume/)
 
 **Styled Like a README.md**: This interactive resume is designed to resemble a README.md, just like the one you're reading now!
 
