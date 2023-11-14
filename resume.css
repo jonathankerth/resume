@@ -11,17 +11,17 @@ body {
 
 /* Define dark mode styles */
 [data-theme="dark"] body {
-	background-color: #333333;
+	background-color: #000000;
 	color: #ffffff;
 }
 /* Define dark mode styles for main content */
 [data-theme="dark"] .main-content {
-	background-color: #1a1a1a;
+	background-color: #000000;
 	color: #ffffff;
 }
 /* Define dark mode styles for list items */
 [data-theme="dark"] ul li {
-	background-color: #333333;
+	background-color: #000000;
 	color: #ffffff;
 }
 
