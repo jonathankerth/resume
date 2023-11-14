@@ -21,6 +21,7 @@ body {
 }
 /* Define dark mode styles for list items */
 [data-theme="dark"] ul li {
+	background-color: #333333;
 	color: #ffffff;
 }
 
