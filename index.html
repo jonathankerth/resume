@@ -36,7 +36,9 @@
 
 		<div class="container mx-auto">
 			<div class="border border-gray-400 rounded p-4">
-				<div class="flex items-center px-2 py-0 inline-block font-semibold">
+				<div
+					class="flex items-center px-2 py-0 inline-block font-semibold hide-on-print"
+				>
 					<!-- Menu Icon: Three horizontal lines -->
 					<div
 						class="flex items-center mb-2 px-2 py-0 inline-block font-semibold flex-col space-y-1"
@@ -91,97 +93,95 @@
 
 					<h2 class="text-lg font-semibold mb-2 section-heading"></h2>
 					<p class="text-xsm">
-						I'm a passionate software engineer, specializing in building
-						scalable web apps with React, Next.js, Node.js, Express, Redux, SQL,
-						Tailwind CSS, SCSS, and MongoDB. Beyond coding, I'm a food
-						enthusiast, tech nerd, home chef, pet parent, and I've been to 5
-						continents
+						Enthusiastic Software Engineer with expertise in developing scalable
+						web applications using React, Next.js, Node.js, Express, Python,
+						Redux, SQL, Tailwind CSS, SCSS, and MongoDB. Skilled in crafting
+						efficient, user-centric solutions and passionate about keeping
+						abreast with the latest tech trends. Outside of coding, I'm a
+						foodie, home chef, pet parent, 3D printer tinkerer, and traveler.
 					</p>
 
 					<h2 class="text-lg font-semibold mb-2 section-heading">
-						A Few of My Projects
+						A Few of the Projects I've Built
 					</h2>
-					<div class="space-y-3">
+					<div class="space-y-3 mb-2">
+						<div>
+							<h3 class="text-base">ClimateCue</h3>
+							<ul class="pl-2 list-disc text-xsm projects-description">
+								<li>
+									Engineered a responsive, real-time weather application
+									ensuring seamless cross-device functionality. Integrated
+									Next.js, React, Node.js, and Tailwind CSS with OpenWeather and
+									Stripe APIs. Implemented robust data handling and
+									user-friendly interfaces. Successfully deployed on Vercel.
+								</li>
+							</ul>
+							<a
+								href="https://www.climatecue.com"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Live Site</a
+							>
+						</div>
+
+						<div>
+							<h3 class="text-base">Discord & Spotify Song Saver</h3>
+							<ul class="pl-2 list-disc text-xsm projects-description">
+								<li>
+									Developed an innovative Discord bot for capturing and storing
+									Spotify track links from messages. Crafted a complementary
+									Spotify bot to automate playlist updates with new tracks from
+									Firebase. Employed Python, Firebase, Spotify, and Discord
+									APIs, and deployed on Heroku.
+								</li>
+							</ul>
+							<a
+								href="https://github.com/jonathankerth/discord-spotify-song-saver"
+								class="text-blue-500 hover:underline"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Project Repository</a
+							>
+						</div>
+
 						<div>
 							<h3 class="text-base">Nicolas Cage Movie Repository</h3>
 							<ul class="pl-2 list-disc text-xsm projects-description">
 								<li>
-									Created a Nicolas Cage Movie Repository with a custom-built
-									RESTful API for dynamic data fetching. The project includes
-									user authentication and session management.
+									Built a specialized Nicolas Cage Movie Repository featuring a
+									custom RESTful API for dynamic content delivery. Focused on
+									creating a seamless user experience with robust authentication
+									and session management. Utilized React, Node.js, CSS, and
+									Bootstrap, and deployed on Netlify.
 								</li>
-								<li>Technologies: React, Bootstrap, RESTful API</li>
-								<li>Deployed on Netlify</li>
-
-								<a
-									class="text-blue-500 hover:underline"
-									href="https://niccagecllient.netlify.app/"
-									target="_blank"
-									rel="noopener noreferrer"
-									>Live Site</a
-								>
 							</ul>
+							<a
+								class="text-blue-500 hover:underline"
+								href="https://niccagecllient.netlify.app/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Live Site</a
+							>
 						</div>
+
 						<div>
-							<h3 class="text-base">Meet App</h3>
+							<h3 class="text-base">Meet Others</h3>
 							<ul class="pl-2 list-disc text-xsm projects-description">
 								<li>
-									Developed a serverless Progressive Web App (PWA) that fetches
-									upcoming tech events using Google Calendar API and OAuth2 for
-									data fetching and user authentication. The project was built
-									following a Test-Driven Development (TDD) approach.
+									Innovatively designed a serverless Progressive Web App (PWA)
+									leveraging Google Calendar API and OAuth2 for fetching and
+									displaying upcoming tech events. Emphasized security and
+									usability with sophisticated user authentication. Executed
+									with a Test-Driven Development (TDD) approach, using React,
+									Node.js, and deployed on GitHub Pages.
 								</li>
-								<li>
-									Technologies: React, Node.js, Google Calendar API, OAuth2, PWA
-								</li>
-								<li>Deployed on GitHub Pages</li>
-
-								<a
-									href="https://jonathankerth.github.io/meet/"
-									target="_blank"
-									rel="noopener noreferrer"
-									>Live Site</a
-								>
 							</ul>
-						</div>
-						<div>
-							<h3 class="text-base">Kitchen GPT</h3>
-							<ul class="pl-2 list-disc text-xsm projects-description">
-								<li>
-									Developed Kitchen GPT, an AI-powered kitchen assistant that
-									offers real-time assistance with recipes, measurements, and
-									cooking advice using GPT-3 technology.
-								</li>
-								<li>Technologies: React, Node.js, Express.js, GPT-3</li>
-								<li>Deployed on Vercel</li>
-
-								<a
-									class="text-blue-500 hover:underline"
-									href="https://kitchen-gpt.vercel.app/"
-									target="_blank"
-									rel="noopener noreferrer"
-									>Live Site</a
-								>
-							</ul>
-						</div>
-						<div>
-							<h3 class="text-base">Weather App</h3>
-							<ul class="pl-2 list-disc text-xsm projects-description">
-								<li>
-									Designed and developed a real-time weather application that
-									displays current weather data with a responsive design for
-									cross-device compatibility.
-								</li>
-								<li>Technologies: Next.js, Tailwind CSS, OpenWeather API</li>
-								<li>Deployed on Vercel</li>
-
-								<a
-									href="https://weather-app-woad-two.vercel.app/"
-									target="_blank"
-									rel="noopener noreferrer"
-									>Live Site</a
-								>
-							</ul>
+							<a
+								href="https://jonathankerth.github.io/meet/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>Live Site</a
+							>
 						</div>
 					</div>
 
@@ -193,8 +193,8 @@
 					<p class="text-xsm mb-2">
 						React, Redux, Next.js, JavaScript, TypeScript, HTML, CSS, SCSS,
 						Tailwind CSS, Bootstrap, Angular, Node.js, Git, Vercel, Express,
-						MongoDB, AWS, Lambda, Google Analytics, ChatGPT, Software
-						Development, Python, Flask, BeautifulSoup
+						Firebase, Heroku, SQL, NoSQL, MongoDB, AWS, Lambda, Google
+						Analytics, ChatGPT, AI, Python, Flask, and BeautifulSoup
 					</p>
 
 					<hr />
@@ -204,7 +204,9 @@
 							Technical Recruiter | Lenati, PK Global, Xpanse, and Brightloom
 						</h3>
 						<div class="text-xsm">July 2018 - August 2022</div>
-						<ul class="pl-5 text-xsm work-experience-description list-disc">
+						<ul
+							class="pl-5 text-xsm work-experience-description list-disc mb-2"
+						>
 							<li>
 								Spearheaded technical recruitment efforts across multiple
 								companies, including Lenati, PK Global, Xpanse, and Brightloom.
