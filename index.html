@@ -10,7 +10,7 @@
 		/>
 		<link rel="stylesheet" href="./resume.css" />
 	</head>
-	<body class="bg-white text-black p-2">
+	<body class="bg-white text-black p-2 text-sm">
 		<button
 			id="themeToggle"
 			class="bg-gray-800 text-white rounded-full w-10 h-10 absolute top-5 right-5 focus:outline-none"
@@ -41,21 +41,21 @@
 					<div
 						class="flex items-center mb-2 px-2 py-0 inline-block font-semibold flex-col space-y-1"
 					>
-						<span class="block" style="line-height: 0.1">—</span>
-						<span class="block" style="line-height: 0.1">—</span>
-						<span class="block" style="line-height: 0.1">—</span>
+						<span class="block text-lg" style="line-height: 0.1">—</span>
+						<span class="block text-lg" style="line-height: 0.1">—</span>
+						<span class="block text-lg" style="line-height: 0.1">—</span>
 					</div>
 					README.md
 				</div>
 				<hr class="border-gray-400 hide-on-print" />
 				<div class="pt-4">
-					<div class="text-xl font-semibold text-center mb-4">
+					<div class="text-lg font-semibold text-center mb-2">
 						Jonathan Gallardo-Kerth
 					</div>
 
-					<div class="text-center">
+					<div class="text-center text-sm mb-2">
 						<span class="w-full sm:w-auto sm:mb-0">
-							Portland, OR, 97215 | (630) 373-8754 |
+							Portland, OR, 97215, USA | +1 (630) 373-8754 |
 							<a
 								class="text-blue-500 hover:underline"
 								href="mailto:Jonathanpkerth@gmail.com"
@@ -69,17 +69,18 @@
 								rel="noopener noreferrer"
 								>www.jonathankerth.com</a
 							>
-							|
+							<a class="hide-on-print">|</a>
+
 							<a
-								class="text-blue-500 hover:underline"
+								class="text-blue-500 hover:underline hide-on-print"
 								href="https://linkedin.com/in/jonathankerth"
 								target="_blank"
 								rel="noopener noreferrer"
 								>LinkedIn</a
 							>
-							|
+							<a class="hide-on-print">|</a>
 							<a
-								class="text-blue-500 hover:underline"
+								class="text-blue-500 hover:underline hide-on-print"
 								href="https://github.com/jonathankerth/resume"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -87,10 +88,11 @@
 							>
 						</span>
 					</div>
+					<hr />
 
-					<h2 class="text-lg font-semibold mb-4 section-heading"></h2>
-					<p class="text-xsm">
-						I'm an enthusiastic Software Engineer with expertise developing
+					<h2 class="text-base font-semibold mb-4"></h2>
+					<p class="text-xs">
+						I'm a passionate Software Engineer with experience developing
 						scalable web applications primarily using Javascript and Python
 						technologies. I am skilled in crafting efficient, user-centric
 						solutions and passionate about being a continous learner. Outside of
@@ -98,10 +100,10 @@
 						tinkerer, and traveler.
 					</p>
 					<hr class="mt-2" />
-					<h2 class="text-lg font-semibold mb-2 section-heading">
+					<h2 class="text-base font-semibold mb-2 section-heading mt-2">
 						Technologies I've Worked With
 					</h2>
-					<p class="text-xsm mb-2">
+					<p class="text-xs mb-2">
 						React, Next.js, Vue.js, Node.js, JavaScript, Python, Redux, HTML,
 						CSS, SCSS, Tailwind CSS, Bootstrap, Angular, Git, Vercel, Express,
 						Firebase, Heroku, SQL, NoSQL, MongoDB, AWS, Lambda, Google
@@ -110,13 +112,13 @@
 
 					<hr />
 
-					<h2 class="text-lg font-semibold mb-2 section-heading">
-						A Few of the Projects I've Built
+					<h2 class="text-base font-semibold mt-2 section-heading">
+						Projects I've Built
 					</h2>
 					<div class="space-y-3 mb-2">
 						<div>
-							<h3 class="text-base">ClimateCue</h3>
-							<ul class="pl-2 list-disc text-xsm projects-description">
+							<h3 class="text-md">ClimateCue</h3>
+							<ul class="pl-2 list-disc text-xs projects-description">
 								<li>
 									Designed and developed a real-time weather application with
 									the option to subscribe for premium features.
@@ -131,17 +133,11 @@
 									OpenWeather API, and Stripe API. Deployed on Vercel.
 								</li>
 							</ul>
-							<a
-								href="https://www.climatecue.com"
-								target="_blank"
-								rel="noopener noreferrer"
-								>Live Site</a
-							>
 						</div>
 
 						<div>
-							<h3 class="text-base">Discord Bot and Spotify Song Saver</h3>
-							<ul class="pl-2 list-disc text-xsm projects-description">
+							<h3 class="text-md">Discord Bot and Spotify Song Saver</h3>
+							<ul class="pl-2 list-disc text-xs projects-description">
 								<li>
 									Developed a Discord bot to capture and store Spotify song
 									links from discord channels into a Firebase Firestore.
@@ -155,18 +151,11 @@
 									Deployed on Heroku.
 								</li>
 							</ul>
-							<a
-								href="https://github.com/jonathankerth/discord-spotify-song-saver"
-								class="text-blue-500 hover:underline"
-								target="_blank"
-								rel="noopener noreferrer"
-								>Project Repository</a
-							>
 						</div>
 
 						<div>
-							<h3 class="text-base">Nicolas Cage Movie Repository</h3>
-							<ul class="pl-2 list-disc text-xsm projects-description">
+							<h3 class="text-md">Nicolas Cage Movie Repository</h3>
+							<ul class="pl-2 list-disc text-xs projects-description">
 								<li>
 									Developed a dedicated Nicolas Cage Movie Repository featuring
 									a custom-built RESTful API for dynamic and efficient content
@@ -182,18 +171,11 @@
 									Netlify.
 								</li>
 							</ul>
-							<a
-								class="text-blue-500 hover:underline"
-								href="https://niccagecllient.netlify.app/"
-								target="_blank"
-								rel="noopener noreferrer"
-								>Live Site</a
-							>
 						</div>
 
 						<div>
-							<h3 class="text-base">Oregonized Design Co. Website</h3>
-							<ul class="pl-2 list-disc text-xsm projects-description">
+							<h3 class="text-md">Oregonized Design Co. Website</h3>
+							<ul class="pl-2 list-disc text-xs projects-description">
 								<li>
 									Developed an immersive parallax single-page application (SPA)
 									for Oregonized Design Co. The SPA showcases dynamic, smooth
@@ -205,59 +187,75 @@
 								</li>
 								<li>Built with Vue.js and Tailwind CSS. Deployed on Vercel.</li>
 							</ul>
-							<a
-								href="https://freelance-site-kappa.vercel.app/"
-								target="_blank"
-								rel="noopener noreferrer"
-								>Live Site</a
-							>
 						</div>
 					</div>
 
 					<hr />
 
-					<h2 class="text-lg font-semibold section-heading">Work Experience</h2>
+					<h2 class="text-base font-semibold section-heading mt-2">
+						Work Experience
+					</h2>
 					<div class="work-experience-item">
-						<h3 class="text-base">
-							Technical Recruiter | Lenati, PK Global, Xpanse, and Brightloom
+						<h3 class="text-md">
+							Full-Stack Software Engineer | Oregonized Design Co. | June 2023 -
+							Present
 						</h3>
-						<div class="text-xsm">July 2018 - August 2022</div>
-						<ul
-							class="pl-5 text-xsm work-experience-description list-disc mb-2"
-						>
+
+						<ul class="pl-5 text-xs work-experience-description list-disc mb-2">
 							<li>
-								Spearheaded technical recruitment efforts across multiple
-								companies, including Lenati, PK Global, Xpanse, and Brightloom.
+								Developed scalable web applications utilizing modern
+								technologies including but not limited to React, Node.js, and
+								Tailwind CSS, significantly enhancing user experience and SEO
+								for clients
 							</li>
 							<li>
-								Developed and nurtured relationships with both clients and
-								candidates.
+								Integreated AI features into projects, such as outfit
+								recommendations based on weather conditions, improving user
+								engagement and satisfaction.
 							</li>
 							<li>
-								Led university recruitment initiatives, managed applicant
-								tracking system organization, and championed diversity and
-								inclusion efforts.
+								Implemented full-stack solutions from concept through
+								deployment, leveraging cloud technologies like Firebase and AWS
+								for efficient data storage and access.
+							</li>
+							<li>
+								Created an open source resume template for other software
+								engineers to use
 							</li>
 						</ul>
 					</div>
 
-					<div class="work-experience-item">
+					<div>
+						<h3 class="text-md">
+							Technical Recruiter | Lenati, PK Global, Xpanse, and Brightloom |
+							July 2018 - August 2022
+						</h3>
+						<ul class="pl-5 text-xs list-disc mb-2">
+							<li>
+								Completed a succesful 4-year career in Technical recruiting
+								across diverse companies, including an international consulting
+								firm and two start-ups.
+							</li>
+						</ul>
+					</div>
+
+					<div>
 						<hr />
 
-						<h2 class="text-lg font-semibold section-heading">Education</h2>
+						<h2 class="text-base mt-2 font-semibold">Education</h2>
 						<div class="flex">
 							<div class="ml-2">
-								<h4 class="text-md"><strong>B.A. in Psychology</strong></h4>
-								<ul class="text-md education-details">
-									<li>Willamette University, Salem, OR</li>
+								<h4 class="text-sm">B.A. in Psychology</h4>
+								<ul class="text-xs">
+									<li>Willamette University, Salem, OR, USA</li>
 									<li>August 2014 - May 2018</li>
 								</ul>
 							</div>
 							<div class="ml-8">
-								<h4 class="text-md">
-									<strong>Coding Bootcamp in Full-Stack Web Development</strong>
+								<h4 class="text-sm">
+									Coding Bootcamp in Full-Stack Web Development
 								</h4>
-								<ul class="text-md education-details">
+								<ul class="text-xs education-details">
 									<li>CareerFoundry, Remote</li>
 									<li>December 2022 - June 2023</li>
 								</ul>
