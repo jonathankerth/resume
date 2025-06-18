@@ -13,4 +13,7 @@
 	.hide-on-print {
 		display: none;
 	}
+	.container > .border {
+		border: none !important;
+	}
 }
