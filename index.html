@@ -10,7 +10,7 @@
 		/>
 		<link rel="stylesheet" href="./resume.css" />
 	</head>
-	<body class="bg-white text-black p-2 text-sm">
+	<body class="bg-white text-black p-2 text-xs">
 		<button
 			id="themeToggle"
 			class="bg-gray-800 text-white rounded-full w-10 h-10 absolute top-5 right-5 focus:outline-none"
@@ -53,8 +53,8 @@
 						Jonathan Gallardo-Kerth
 					</div>
 
-					<div class="text-center text-sm mb-2">
-						<span class="w-full sm:w-auto sm:mb-0">
+					<div class="text-center text-xs mb-2">
+						<span class="w-full xs:w-auto xs:mb-0">
 							Portland, OR, 97215, USA | +1 (630) 373-8754 |
 							<a
 								class="text-blue-500 hover:underline"
@@ -100,9 +100,12 @@
 					<hr />
 					<div class="summary-section">
 						<p class="text-sm my-2">
-							Collaborative full-stack software engineer specializing in
-							end-to-end React/Next.js frontends and Node.js/Python backends on
-							AWS, delivering intuitive UIs and scalable APIs.
+							Full-stack software engineer specializing in enterprise-scale
+							React applications with complex data pipelines, AWS serverless
+							architectures, and SQL-based analytics. Expert in building
+							cost-efficient, high-performance systems that process and display
+							millions of rows of data through Python Lambda functions and
+							modern CI/CD workflows.
 						</p>
 					</div>
 					<hr />
@@ -111,76 +114,78 @@
 						Professional Experience
 					</h2>
 					<div class="work-experience-item">
-						<div class="flex justify-between">
+						<div class="flex justify-between mb-1">
 							<h3 class="text-md">
 								<span class="font-semibold">Cloud Application Developer</span> |
 								Portland General Electric
 							</h3>
-							<span class="text-md">August 2024 - Present</span>
+							<span class="text-xs">August 2024 - Present</span>
 						</div>
 						<ul class="pl-5 text-xs work-experience-description list-disc mb-2">
 							<li>
-								Built React & Material UI dashboards to visualize outage status
-								and crew locations for internal users.
+								Built and deployed a Vite React app with JavaScript, Material
+								UI, custom hooks, Redux, and Axios, powered by an AI crew
+								prediction algorithm; integrated with AWS Amplify, Cognito, S3,
+								CloudFront, and IAM via Jenkins CI/CD.
 							</li>
 							<li>
-								Collaborated with UX design and backend teams to build and
-								integrate map views, enforce access controls, create
-								browser-aware components, and integrate RESTful APIs.
+								Developed AWS Lambda functions and REST APIs for Snowflake ETL
+								pipelines handling millions of rows on 15-min to daily intervals
+								using CloudFormation, Snowflake tasks, pipes, and procedures.
 							</li>
 							<li>
-								Developed Python AWS Lambda functions using boto3 and
-								CloudFormation templates to power APIs and manage S3 asset
-								delivery via CloudFront.
+								Created an AWS Lambda to generate signed S3 URLs, reducing
+								dispatcher clicks from 14 to 4 and saving ~30 minutes daily by
+								streamlining screenshot uploads.
 							</li>
 							<li>
-								Built Snowflake ETL pipelines using AWS Lambda functions,
-								Snowflake Tasks, Pipes, and Procedures to automate CSV ingestion
-								from S3.
-							</li>
-							<li>
-								Served as on-call incident lead, triaging and resolving
-								high-impact issues across departments.
+								Resolved critical incidents including recovering 1M+ deleted
+								Snowflake data rows within 2 hours as part of application
+								support responsibilities.
 							</li>
 						</ul>
 					</div>
 
 					<div class="work-experience-item">
-						<div class="flex justify-between">
+						<div class="flex justify-between mb-1">
 							<h3 class="text-md">
-								<span class="font-semibold">Software Engineering Intern </span>|
+								<span class="font-semibold">Software Engineering Intern</span> |
 								Radical AI
 							</h3>
-							<span class="text-md">March 2024 - August 2024</span>
+							<span class="text-xs">March 2024 - August 2024</span>
 						</div>
 						<ul class="pl-5 text-xs work-experience-description list-disc mb-2">
 							<li>
-								Documented and implemented standard operating procedures to
-								reduce ticket resolution time by 15%.
+								Created reusable, accessible React components for AI chatbot
+								interfaces using Material UI and WCAG-compliant semantic HTML.
 							</li>
 							<li>
-								Facilitated cross-functional collaboration via Slack, Asana,
-								GitHub Enterprise, Google Meet, and Gather integrations.
+								Standardized Jira ticket creation with user stories, acceptance
+								criteria, and testing requirements, which reduced average ticket
+								completion by 1 day.
 							</li>
 						</ul>
 					</div>
-
 					<div class="work-experience-item">
-						<div class="flex justify-between">
+						<div class="flex justify-between mb-1">
 							<h3 class="text-md">
-								<span class="font-semibold"> Full-Stack Software Engineer</span>
+								<span class="font-semibold">Full-Stack Software Engineer</span>
 								| Oregonized Design Co.
 							</h3>
-							<span class="text-md">June 2023 - January 2025</span>
+							<span class="text-xs">June 2023 - August 2024</span>
 						</div>
 						<ul class="pl-5 text-xs work-experience-description list-disc mb-2">
 							<li>
-								Created and maintained an open-source resume template using
-								JavaScript, HTML, and Tailwind CSS.
+								Built and maintained an open-source resume template using modern
+								JavaScript, HTML5, and Tailwind CSS.
 							</li>
 							<li>
-								Built accessible full-stack SPAs following W3C guidelines to
-								enhance usability.
+								Developed accessible full-stack SPAs following W3C accessibility
+								standards.
+							</li>
+							<li>
+								Consulted with clients to improve SEO and accessibility of
+								existing websites.
 							</li>
 						</ul>
 					</div>
@@ -188,60 +193,35 @@
 					<hr />
 
 					<h2 class="text-base font-bold my-1 section-heading">
-						A Few of the Projects I've Built
+						Featured Projects
 					</h2>
 					<div class="mb-2">
 						<div class="mb-1">
-							<h3 class="text-md font-semibold mb-0.5">ClimateCue</h3>
-							<ul class="pl-5 text-xs list-disc space-y-1 mb-1">
+							<h3 class="text-xs font-semibold mb-0.5">ClimateCue</h3>
+							<ul class="pl-5 text-xs list-disc mb-2">
 								<li>
-									A PWA that provides real-time weather updates and personalized
-									outfit recommendations via OpenWeather & OpenAI APIs.
+									Full-stack PWA combining OpenWeather API and custom ChatGPT
+									backend to provide real-time weather and AI-driven outfit
+									suggestions for premium users.
 								</li>
 								<li>
-									Next.js/React frontend, Node.js backend, Stripe subscriptions;
-									deployed on Vercel.
+									Next.js frontend with Node.js backend; Google Cloud handles
+									authentication, data storage, and Stripe payment processing.
 								</li>
+								<li>Deployed on Vercel with automated Git CI/CD pipelines.</li>
 							</ul>
 						</div>
 						<div class="mb-1">
 							<h3 class="text-md font-semibold mb-0.5">
 								Discord & Spotify Bot
 							</h3>
-							<ul class="pl-5 text-xs list-disc space-y-1 mb-1">
+							<ul class="pl-5 text-xs list-disc mb-1">
 								<li>
-									Automates playlist creation by capturing shared tracks in
-									Discord and organizing them in Spotify.
-								</li>
-								<li>
-									Built with Python/Flask and Discord & Spotify APIs; deployed
+									Python/Flask application automating playlist creation by
+									capturing Spotify links shared in a Discord channel and adding
+									the songs to a Spotify playlist via API integration; deployed
 									on Heroku.
 								</li>
-							</ul>
-						</div>
-						<div class="mb-1">
-							<h3 class="text-md font-semibold mb-0.5">
-								Nicolas Cage Movie Fanclub
-							</h3>
-							<ul class="pl-5 text-xs list-disc space-y-1 mb-1">
-								<li>
-									Fan app to save, rate, and get recommendations for Nicolas
-									Cage films.
-								</li>
-								<li>
-									React & Bootstrap UI with Node.js/Express & MongoDB API;
-									recommendation engine; deployed on Netlify & Heroku.
-								</li>
-							</ul>
-						</div>
-						<div class="mb-1">
-							<h3 class="text-md font-semibold mb-0.5">SnippetSync Backend</h3>
-							<ul class="pl-5 text-xs list-disc space-y-1 mb-1">
-								<li>
-									RESTful ASP.NET Core C# API for managing code snippets with
-									CRUD & tagging.
-								</li>
-								<li>Hosted on Google Cloud Platform.</li>
 							</ul>
 						</div>
 					</div>
@@ -250,20 +230,26 @@
 
 					<section id="skills">
 						<header>
-							<h2 class="text-base font-bold my-1 section-heading">Skills</h2>
+							<h2 class="text-base font-bold my-1 section-heading">
+								Core Competencies
+							</h2>
 						</header>
 						<p class="text-xs mb-2">
-							<b>Frontend:</b> React 18 (Hooks, JSX), Next.js 14, Vercel, Vue.js
-							3, Angular 15, JavaScript ES2024, Redux Toolkit, HTML5, CSS3,
-							SCSS, Tailwind CSS 3, Bootstrap 5, Material UI 5, AWS Amplify<br />
-							<b>Backend & Data Engineering:</b> Node.js 20, Express 4, Python
-							3.11, C# 11, .NET 7, MongoDB 6, SQL, NoSQL, AWS (Lambda, S3,
-							CloudFront, CloudFormation, EC2), Snowflake, Matillion, Maximo,
-							Quickbase, Firebase, Vercel, Heroku, Google Cloud Platform
-							(Analytics, Firebase, Firestore, Authentication), ChatGPT API<br />
-							<b>Other Tools:</b> Figma, Git, GitHub Enterprise, Confluence,
-							Asana, Workday, Trello, ESLint, Prettier, VS Code, Slack, Google
-							Workspace, Notion, JIRA
+							<b>Frontend:</b> React 18 (Hooks, Custom Hooks, Context API),
+							JavaScript ES2025, TypeScript, Vite, Next.js 15, Redux Toolkit,
+							Axios, HTML5, CSS, SCSS, Tailwind CSS 4, Material UI 6<br />
+							<b>Backend & APIs:</b> Node.js 22, Python 3.13, Flask, AWS Lambda,
+							RESTful API Design, Serverless Architecture, API Gateway, AWS
+							Cognito, OAuth Authentication, Spotify API, Stripe Payment API,
+							Discord API<br />
+							<b>Cloud & Infrastructure:</b> AWS (Lambda, S3, CloudFormation,
+							IAM, Amplify, API Gateway, DynamoDB, RDS, DMS, CloudWatch, EC2,
+							Kubernetes), Docker, Google Cloud Platform <br />
+							<b>Data & Analytics:</b> Snowflake (ETL, Tasks, Pipes, Procedures,
+							Views), SQL, MongoDB, NoSQL, Data Pipeline Design<br />
+							<b>DevOps & Tools:</b> CI/CD Pipelines, Jenkins, Git, Vercel,
+							Heroku, ESLint, Prettier, CloudWatch Monitoring, Atlassian tools
+							(Jira, Confluence)<br />
 						</p>
 					</section>
 
@@ -273,14 +259,14 @@
 						<h2 class="text-base my-2 font-bold">Education</h2>
 						<div class="flex">
 							<div class="ml-2">
-								<h4 class="text-sm italic">B.A. in Psychology</h4>
+								<h4 class="text-xs italic">B.A. in Psychology</h4>
 								<ul class="text-xs">
 									<li>Willamette University, Salem, OR, USA</li>
 									<li>August 2014 - May 2018</li>
 								</ul>
 							</div>
 							<div class="ml-8">
-								<h4 class="text-sm italic">
+								<h4 class="text-xs italic">
 									Full-Stack Web Development Bootcamp
 								</h4>
 								<ul class="text-xs">
